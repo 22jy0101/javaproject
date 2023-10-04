@@ -1,10 +1,22 @@
 package git02;
 
 public class student {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	private String id;
+	private String name;
+	public String getId() {
+		return id;
 	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	
 
 }
